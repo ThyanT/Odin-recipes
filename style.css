@@ -12,6 +12,7 @@ table, th, td {
 
 td {
   padding-left: 18px;
+  padding-right: 18px;
   color: black;
 }
 
@@ -33,6 +34,7 @@ p {
 }
 body {
     margin: 0;
+    font-family: Verdana;
 }
   
   .topnav {
