@@ -1,34 +1,9 @@
-button {
-  color: black;
-  border: none;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-button {
-  background-color: #4F4557;
-  color: black;
-  border: 2px solid Grey;
-  
-}
-
-button:hover {
-  background-color: #393646;
-  color: #F4EEE0;
-}
-
 h1, h2, h3 {
   text-align: center;
 }
 
 body {
-  background-color: #6D5D6E;
+  background-color: #D7CEC7;
 }
 
 table, th, td {
@@ -37,8 +12,49 @@ table, th, td {
 
 td {
   padding-left: 18px;
+  color: black;
 }
 
 th {
   font-size: 20px;
+}
+
+h1, h2 {
+    color: #76323F;
+}
+
+h3 {
+    color: #76323F;
+}
+
+p { 
+    padding-left:16px;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #565656;
+}
+  
+  .topnav a {
+    float: left;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  .topnav a:hover {
+    background-color: #EEEEEE;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: tan;
+    color: #EEEEEE;
 }
