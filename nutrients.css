@@ -11,8 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.size li {
     border : 2px solid black;
     cursor: pointer;
     font-weight: 500;
@@ -29,11 +27,4 @@ li {
     text-align: center;
 }
 
-.center {
-    text-align: center;
-}
 
-.list {
-    display: inline-block;
-    text-align: center;
-}
