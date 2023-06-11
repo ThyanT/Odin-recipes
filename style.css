@@ -22,7 +22,7 @@ button:hover {
   color: white;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
@@ -37,3 +37,4 @@ table, th, td {
 td {
   padding-left: 10px;
 }
+
