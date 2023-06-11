@@ -13,11 +13,11 @@ button {
  button {
   background-color: white;
   color: black;
-  border: 2px solid #008CBA;
+  border: 2px solid dodgerblue;
 }
 
 button:hover {
-  background-color: #008CBA;
+  background-color: dodgerblue;
   color: white;
 }
   
