@@ -1,3 +1,16 @@
 button {
   background-color: red;
+  color: black;
+}
+button1 {
+  background-color: green;
+  color: black;
+}
+button2 {
+  background-color: blue;
+  color: black;
+}
+button3 {
+  background-color: darkgray;
+  color: white;
 }
