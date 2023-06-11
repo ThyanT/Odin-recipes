@@ -1,5 +1,4 @@
-button {
-  background-color: blue;
+.button2 {
   color: black;
   border: none;
   padding: 16px 32px;
@@ -11,20 +10,19 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
   
- button {
+ .button2 {
   background-color: white;
   color: black;
   border: 2px solid dodgerblue;
 }
 
-button:hover {
+.button2:hover {
   background-color: dodgerblue;
   color: white;
 }
   
 }
 .button1 {
-  background-color: green;
   color: black;
   border: none;
   padding: 16px 32px;
