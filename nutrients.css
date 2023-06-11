@@ -2,6 +2,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
+    background-color: #6D5D6E;
 }
 .size li {
     list-style: none;
@@ -18,7 +19,7 @@
 }
 
 .size li:hover {
-    background: darkgray;
+    background: #393646;
     color: white;
 }
 
