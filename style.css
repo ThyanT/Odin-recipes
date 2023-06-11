@@ -29,3 +29,7 @@ h1 {
 body {
   background-color: lightgray;
 }
+
+table, th, td {
+  border-collapse: collapse;
+}
