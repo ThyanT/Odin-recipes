@@ -20,7 +20,6 @@
 .size li:hover {
     background: darkgray;
     color: white;
-    opacity:1;
 }
 
 li {
