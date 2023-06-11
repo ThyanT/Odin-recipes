@@ -1,0 +1,39 @@
+.size {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.size li {
+    list-style: none;
+    color: black;
+    width: 65px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    opacity:0.5;
+}
+
+.size li:hover {
+    background: darkgray;
+    color: white;
+    opacity:1;
+}
+
+li {
+    font-size: 15px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.list {
+    display: inline-block;
+    text-align: center;
+}
