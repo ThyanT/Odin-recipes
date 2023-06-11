@@ -12,14 +12,14 @@ button {
 }
 
 button {
-  background-color: gainsboro;
+  background-color: #4F4557;
   color: black;
   border: 2px solid Grey;
   
 }
 
 button:hover {
-  background-color: Grey;
+  background-color: #393646;
   color: white;
 }
 
@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #6D5D6E;
 }
 
 table, th, td {
