@@ -33,3 +33,7 @@ body {
 table, th, td {
   border: none;
 }
+
+td {
+  padding-left: 10px;
+}
