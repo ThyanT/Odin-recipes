@@ -20,12 +20,14 @@
     <h1>Odin recipes</h1>
     <h2>Steps</h2>
     <table border="1">
-        <th></th>
-        <th></th>
+        <th>Lasagna</th>
+        <th>Steps</th>
         <th>Ingredients</th>
         <tr>
           <td>
-          <img src="../images/lasagna.jpg" alt="Lasagna" title="Lasagna" width="400" height="400"></td>
+              <div class="img-magnifier-container">
+          <img id="myimage" src="../images/lasagna.jpg" alt="Lasagna" title="Lasagna" width="400" height="400"></td>
+              </div>
           <td>
            <ol>
                <li><b>Heat the oven to 400ºF.</b> Arrange a rack in the middle of the oven and heat the oven to 400°F.</li>
@@ -125,9 +127,6 @@ function magnify(imgID, zoom) {
   }
 }
 </script>
-<div class="img-magnifier-container">
-  <img id="myimage" src="img_girl.jpg" width="600" height="400">
-</div>
 <script>
 /* Initiate Magnify Function
 with the id of the image, and the strength of the magnifier glass:*/
