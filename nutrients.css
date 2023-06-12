@@ -3,6 +3,8 @@
     gap: 50px;
     justify-content: center;
     background-color: #9c948f;
+    font-size: 15px;
+    text-align: center;
 }
 .size li {
     list-style: none;
@@ -22,9 +24,6 @@
     color: #000000;
 }
 
-li {
-    font-size: 15px;
-    text-align: center;
-}
+
 
 
