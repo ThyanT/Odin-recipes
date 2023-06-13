@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="login-page.css">
   <script defer src="login-page.js"></script>
   <style>
-    html {
-  height: 100%;
+
+html {
+  height: 50%;
 }
 
 body {
   height: 100%;
-  margin: 0;
+  margin: 10%;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   justify-items: center;
@@ -23,14 +24,14 @@ body {
 }
 
 #main-holder {
-  width: 50%;
-  height: 70%;
+  width: 20%;
+  height: 100%;
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: #EEEEEE;
   border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px black;
+  box-shadow: 0px 0px 5px 2px #565656;
 }
 
 #login-error-msg-holder {
@@ -42,7 +43,7 @@ body {
 }
 
 #login-error-msg {
-  width: 23%;
+  width: 60%;
   text-align: center;
   margin: 0;
   padding: 5px;
@@ -71,7 +72,7 @@ body {
 
 .login-form-field {
   border: none;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #565656;
   margin-bottom: 10px;
   border-radius: 3px;
   outline: none;
@@ -83,11 +84,14 @@ body {
   padding: 7px;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #EEEEEE;
   font-weight: bold;
-  background-color: #3a3a3a;
+  background-color: #565656;
   cursor: pointer;
   outline: none;
+}
+#login-header {
+  color: #76323F;
 }
   </style>
 </head>
@@ -96,7 +100,7 @@ body {
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
     
-    <p>Username : t  Password : t</p>
+    <p>Username : t<br>  Password : t</p>
     
     <div id="login-error-msg-holder">
       <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
@@ -110,7 +114,9 @@ body {
   
   </main>
 <script>
-  const loginForm = document.getElementById("login-form");
+
+
+const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 
